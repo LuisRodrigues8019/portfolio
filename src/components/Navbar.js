@@ -38,6 +38,7 @@ const useStyles= makeStyles(theme=>({
     avatar:{
         display:"block",
         margin:"0,5rem auto",
+        marginLeft:"30px",
         width:theme.spacing(13),
         height:theme.spacing(13)
     },
