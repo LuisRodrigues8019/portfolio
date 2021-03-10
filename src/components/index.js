@@ -29,7 +29,7 @@ const Home = () => {
                            }
                        },
                        shape:{
-                        type:"square",
+                        type:"triangle",
                         stroke:{
                             width:1,
                             color:"tomato"
@@ -51,7 +51,7 @@ const Home = () => {
                            anim: {
                             enable:true,
                             speed:1,
-                            opacity_min:0.1,
+                            opacity_min:0.3,
                             sync:true
 
                            }
