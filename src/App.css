@@ -1,12 +1,11 @@
-body{
+.backgroundd{
   background-image:linear-gradient(120deg, rgba(37, 8, 202, 0.1) 0%, rgba(37,8,202,0.1) 100%), url("./images/rodluis.jpeg");
-  background-size: 100%;
-  background-position: -30% 30%;
+  background-size: 135%;
+  background-position: 0% 50%;
   background-repeat: no-repeat;
   background: cover;
   height: 100vh;
   width: 100vw;
-  
 }
 
 .background{

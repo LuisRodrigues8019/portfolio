@@ -15,8 +15,10 @@ const Home = () => {
     const classes = usesTyles()
     return (
         <>
+        
             <Navbar/>
             <Header/>
+            <div className="backgroundd">
             <Particles 
                 canvasClassName={classes.particlesCanva}
                 params={{
@@ -59,6 +61,7 @@ const Home = () => {
                    } 
                 }}
             />
+        </div>
         </>
     )
 }
