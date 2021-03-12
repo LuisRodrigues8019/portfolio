@@ -116,8 +116,7 @@ const Resume = () => {
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2020
-                        2021
+                        2020-2021
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
@@ -127,12 +126,11 @@ const Resume = () => {
                             Becode.org
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-                            Résolution de problémes front end et back end
+                            résolution de problémes front end et back end
                         </Typography>
                     </Box>  
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2008
-                        2020
+                        2008-2020
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
@@ -141,10 +139,10 @@ const Resume = () => {
                         <Typography variant="body1" align="center" style={{color:"tomato"}} >
                             Fnac City 2 Bruxelles
                         </Typography>
-                        <Typography variant="subtitle1" textAlign="center" style={{color:"tan"}}>
-                            Contact client
-                            Merchandising
-                            Gestionnaire du rayon bureautique, son, objets connectés, smartphones
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                            contact client,
+                            merchandising,
+                            gestionnaire du rayon bureautique, son, objets connectés, smartphones
                         </Typography>
                     </Box> 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -157,9 +155,63 @@ const Resume = () => {
                         <Typography variant="body1" align="center" style={{color:"tomato"}} >
                             New SCS
                         </Typography>
-                        <Typography variant="subtitle1" textAlign="center" style={{color:"tan"}}>
-                            Génération d’un site, création du layout, mise en page en Dreamweaver Ultradev 4
-                            Animation pour un site de cinéma en Flash 5
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                            génération d’un site, création du layout, mise en page en Dreamweaver Ultradev 4,
+                            animation pour un site de cinéma en Flash 5
+                        </Typography>
+                    </Box> 
+                </Box>
+                <Typography variant="h4" align="center" className={classes.heading}>
+                    formation
+                </Typography>
+                <Box component="div" className={classes.timeLine}>
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2015-2016
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            training
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}} className={classes.subHeading}>
+                            Apple seed
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                        ios asta training session
+                        </Typography>
+                    </Box>  
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2007
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            TECHNIQUES DE VENTE ET NÉERLANDAIS COMMERCIAL
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}} >
+                            Institut Edmond Machtens
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                            techniques de vente, 
+                            néerlandais commercial, 
+                            expression orale,
+                            communication professionnelle
+                        </Typography>
+                    </Box> 
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2000-2001
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            OPERATEUR DE SITE INTERNET
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}} >
+                            Centre de formation Fij
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                            création
+                            gestion et mise à jour de site internet, 
+                            gestion de couleurs de l’espace, 
+                            théorie de la couleur,
+                            réation et mise à jour de base de données
                         </Typography>
                     </Box> 
                 </Box>
