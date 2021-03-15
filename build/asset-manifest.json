@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b6eb9a4.chunk.css",
+    "main.js": "/static/js/main.29c0b82c.chunk.js",
+    "main.js.map": "/static/js/main.29c0b82c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.623c3a4d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.623c3a4d.js.map",
+    "static/js/2.fc333455.chunk.js": "/static/js/2.fc333455.chunk.js",
+    "static/js/2.fc333455.chunk.js.map": "/static/js/2.fc333455.chunk.js.map",
+    "static/js/3.ba2a9dc0.chunk.js": "/static/js/3.ba2a9dc0.chunk.js",
+    "static/js/3.ba2a9dc0.chunk.js.map": "/static/js/3.ba2a9dc0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0b6eb9a4.chunk.css.map": "/static/css/main.0b6eb9a4.chunk.css.map",
+    "static/js/2.fc333455.chunk.js.LICENSE.txt": "/static/js/2.fc333455.chunk.js.LICENSE.txt",
+    "static/media/avataaars.f4b4cdcc.svg": "/static/media/avataaars.f4b4cdcc.svg",
+    "static/media/boumanjohnsonproject.a2294205.jpg": "/static/media/boumanjohnsonproject.a2294205.jpg",
+    "static/media/App.css": "/static/media/rodluis.a63ca611.jpeg",
+    "static/media/freshop.860b8cf5.jpg": "/static/media/freshop.860b8cf5.jpg",
+    "static/media/todoapp.115794bc.jpg": "/static/media/todoapp.115794bc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.623c3a4d.js",
+    "static/js/2.fc333455.chunk.js",
+    "static/css/main.0b6eb9a4.chunk.css",
+    "static/js/main.29c0b82c.chunk.js"
+  ]
+}
