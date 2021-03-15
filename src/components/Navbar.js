@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 import avatar from "../images/avataaars.svg"
 import { makeStyles } from '@material-ui/core/styles';
 import MobilRightMenuSlider from "@material-ui/core/Drawer"
+import Footer from "./Footer"
 
 import {
 AppBar,
@@ -24,8 +25,7 @@ ArrowBack,
 AssignmentInd,
 Home,
 Apps,
-ContactMail,
-AddBox
+ContactMail
 } from "@material-ui/icons"
 
 //CSS STYLES
@@ -116,6 +116,7 @@ const Navbar = () => {
                         </Typography>
                         <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)}>
                             {sideList("right")}
+                            <Footer/>
                          </MobilRightMenuSlider>
                     </Toolbar>
                 </AppBar>

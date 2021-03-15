@@ -44,7 +44,7 @@ const Portfolio = () => {
     const classes = useStyles()
     return (
         <div className="background">
-        <Box component="div" component={classes.mainContainer}>
+        <Box component="div">
             <Navbar/>
             <Grid container justify="center">
                 {/* project 1 */}
@@ -86,7 +86,7 @@ const Portfolio = () => {
                                 <Typography gutterBottom variant="h5">
                                     Todo App
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p" className={classes.padding} align="justify">
+                                <Typography variant="body2" color="textSecondary" component="p" className={classes.padding}     align="justify">
                                     Dans ce didacticiel, nous allons créer une application simple de liste de tâches à l'aide de node.js 
                                     et mongoDB.
                                 </Typography>
@@ -94,10 +94,10 @@ const Portfolio = () => {
                         </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/TodoApp" className={classes.link}>Github</a>
+                                    <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/TodoApp" className={classes.link}>Github</a>
                                 </Button>
                                 <Button size="small" color="primary">
-                                <a target="_blank" without rel="noreferrer" href="https://todoappluis.herokuapp.com/" className={classes.link}>Demo</a>
+                                    <a target="_blank" without rel="noreferrer" href="https://todoappluis.herokuapp.com/" className={classes.link}>Demo</a>
                                 </Button>
                             </CardActions>
                     </Card>
@@ -121,10 +121,10 @@ const Portfolio = () => {
                         </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/OOP" className={classes.link}>Github</a>
+                                    <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/OOP" className={classes.link}>Github</a>
                                 </Button>
                                 <Button size="small" color="primary">
-                                <a target="_blank" without rel="noreferrer" href="https://freshluis.herokuapp.com/" className={classes.link}>Demo</a>
+                                    <a target="_blank" without rel="noreferrer" href="https://freshluis.herokuapp.com/" className={classes.link}>Demo</a>
                                 </Button>
                             </CardActions>
                     </Card>

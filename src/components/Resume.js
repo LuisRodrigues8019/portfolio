@@ -140,9 +140,10 @@ const Resume = () => {
                             Fnac City 2 Bruxelles
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-                            contact client,
-                            merchandising,
-                            gestionnaire du rayon bureautique, son, objets connectés, smartphones
+                            contact client, <br></br>
+                            merchandising, <br></br>
+                            gestionnaire du rayon bureautique, <br></br>
+                             son, objets connectés, smartphones
                         </Typography>
                     </Box> 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -156,7 +157,9 @@ const Resume = () => {
                             New SCS
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-                            génération d’un site, création du layout, mise en page en Dreamweaver Ultradev 4,
+                            génération d’un site, <br></br>
+                            création du layout, <br></br>
+                            mise en page en Dreamweaver Ultradev 4, <br></br>
                             animation pour un site de cinéma en Flash 5
                         </Typography>
                     </Box> 
@@ -190,9 +193,9 @@ const Resume = () => {
                             Institut Edmond Machtens
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-                            techniques de vente, 
-                            néerlandais commercial, 
-                            expression orale,
+                            techniques de vente, <br></br>
+                            néerlandais commercial, <br></br>
+                            expression orale, <br></br>
                             communication professionnelle
                         </Typography>
                     </Box> 
@@ -208,9 +211,9 @@ const Resume = () => {
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
                             création
-                            gestion et mise à jour de site internet, 
-                            gestion de couleurs de l’espace, 
-                            théorie de la couleur,
+                            gestion et mise à jour de site internet, <br></br>
+                            gestion de couleurs de l’espace, <br></br>
+                            théorie de la couleur, <br></br>
                             réation et mise à jour de base de données
                         </Typography>
                     </Box> 

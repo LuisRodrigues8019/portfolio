@@ -15,7 +15,6 @@ const Home = () => {
     const classes = usesTyles()
     return (
         <>
-        
             <Navbar/>
             <Header/>
             <div className="backgroundd">
@@ -26,7 +25,7 @@ const Home = () => {
                        number:{
                            value:45,
                            density:{
-                            enable: false,
+                            enable: true,
                             value_area:900
                            }
                        },
