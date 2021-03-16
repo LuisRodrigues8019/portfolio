@@ -74,6 +74,9 @@ const Contact = () => {
                         <br/>
                         <InputField fullWidth={true} label="Nom de l'entreprise" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="company" />
                         <br/>
+                        <InputField fullWidth={true} label="Message" variant="outlined" multiline
+                        rows={4} inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="message" />
+                        <br/>
                         <Button type="submit" className={classes.button} variant="outlined" fullWidth={true} endIcon={<SendIcon/>}>
                             Envoyer
                         </Button>

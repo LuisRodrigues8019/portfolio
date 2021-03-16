@@ -4,6 +4,7 @@ import avatar from "../images/avataaars.svg"
 import { makeStyles } from '@material-ui/core/styles';
 import MobilRightMenuSlider from "@material-ui/core/Drawer"
 import Footer from "./Footer"
+import MenuIcon from '@material-ui/icons/Menu';
 
 import {
 AppBar,
@@ -109,10 +110,10 @@ const Navbar = () => {
                 <AppBar position="static" style={{ background:"#222" }}> 
                     <Toolbar>
                         <IconButton onClick={toggleSlider("right", true)}>
-                            <ArrowBack style={{ color:"tomato" }}/>
+                            <MenuIcon style={{ color:"tomato" }}/>
                         </IconButton>
                         <Typography variant="h5" style={{ color:"tan" }}>
-                            Portfolio
+                            Menu
                         </Typography>
                         <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)}>
                             {sideList("right")}
