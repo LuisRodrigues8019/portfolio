@@ -126,7 +126,7 @@ const Resume = () => {
                             Becode.org
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-                            résolution de problémes front end et back end
+                            gestion de projets en front et backend
                         </Typography>
                     </Box>  
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
