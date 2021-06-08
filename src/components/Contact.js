@@ -66,16 +66,16 @@ const Contact = () => {
                         <Typography variant="h5" style={{color:"tomato", textAlign:"center", textTransform:"uppercase"}} >
                             contactez moi
                         </Typography>
-                        <InputField fullWidth={true} label="A propos" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="subject"/>
+                        <InputField fullWidth={true} label="A propos" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="subject" required/>
                         <br/>
-                        <InputField fullWidth={true} label="Nom" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="name"/>
+                        <InputField fullWidth={true} label="Nom" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="name" required/>
                         <br/>
-                        <InputField fullWidth={true} label="Email" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="email"/>
+                        <InputField fullWidth={true} label="Email" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="email" required/>
                         <br/>
-                        <InputField fullWidth={true} label="Nom de l'entreprise" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="company" />
+                        <InputField fullWidth={true} label="Nom de l'entreprise" variant="outlined" inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="company" required/>
                         <br/>
                         <InputField fullWidth={true} label="Message" variant="outlined" multiline
-                        rows={4} inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="message" />
+                        rows={4} inputProps={{style:{color: "white"}}} margin="dense" size="medium" name="message" required/>
                         <br/>
                         <Button type="submit" className={classes.button} variant="outlined" fullWidth={true} endIcon={<SendIcon/>}>
                             Envoyer

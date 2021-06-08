@@ -115,6 +115,20 @@ const Resume = () => {
                     experience
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
+                <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2021
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            junior web developer
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}} className={classes.subHeading}>
+                            Mission locale de saint-gilles
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                            Création du futur site e-commerce Biotiful.bio
+                        </Typography>
+                    </Box>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2020-2021
                     </Typography>
@@ -136,7 +150,7 @@ const Resume = () => {
                         <Typography variant="h5" align="center" className={classes.subHeading}>
                             vendeur produits techniques
                         </Typography>
-                        <Typography variant="body1" align="center" style={{color:"tomato"}} >
+                        <Typography variant="body1" align="center" style={{color:"tomato"}} className={classes.subHeading} >
                             Fnac City 2 Bruxelles
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>

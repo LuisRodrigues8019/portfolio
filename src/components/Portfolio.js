@@ -16,6 +16,7 @@ import {
 import project1 from "../images/boumanjohnsonproject.jpg"
 import project2 from "../images/todoapp.jpg"
 import project3 from "../images/freshop.jpg"
+import project4 from "../images/biotiful.jpg"
 import Navbar from "./Navbar"
 
 
@@ -34,9 +35,17 @@ const useStyles = makeStyles ({
     padding2:{
         paddingBottom:"40px"
     },
+    padding3:{
+        paddingBottom:"27px"
+    },    
     link:{
-        textDecoration:"none"
-    }
+        textDecoration:"none",
+        color:"tomato"
+    },
+    a:{
+        display: "block",
+        textAlign: "center"
+      }
 })
 
 
@@ -67,9 +76,9 @@ const Portfolio = () => {
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                            <CardActions>
+                            <CardActions className={classes.a}>
                                 <Button size="small" color="primary">
-                                    <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/Bouman-Johnson-housing-project" className={classes.link}>Github</a>
+                                    <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/Bouman-Johnson-housing-project" className={classes.link} >Github</a>
                                 </Button>
                                 <Button size="small" color="primary">
                                     <a target="_blank" without rel="noreferrer" href="https://luisrodrigues8019.github.io/Bouman-Johnson-housing-project/" className={classes.link}>Demo</a>
@@ -86,13 +95,13 @@ const Portfolio = () => {
                                 <Typography gutterBottom variant="h5">
                                     Todo App
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p" className={classes.padding}     align="justify">
+                                <Typography variant="body2" color="textSecondary" component="p" className={classes.padding} align="justify">
                                     Dans ce didacticiel, nous allons créer une application simple de liste de tâches à l'aide de node.js 
                                     et mongoDB.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                            <CardActions>
+                            <CardActions className={classes.a}>
                                 <Button size="small" color="primary">
                                     <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/TodoApp" className={classes.link}>Github</a>
                                 </Button>
@@ -119,12 +128,40 @@ const Portfolio = () => {
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                            <CardActions>
+                            <CardActions className={classes.a}>
                                 <Button size="small" color="primary">
                                     <a target="_blank" without rel="noreferrer" href="https://github.com/LuisRodrigues8019/OOP" className={classes.link}>Github</a>
                                 </Button>
                                 <Button size="small" color="primary">
                                     <a target="_blank" without rel="noreferrer" href="https://freshluis.herokuapp.com/" className={classes.link}>Demo</a>
+                                </Button>
+                            </CardActions>
+                    </Card>
+                </Grid>
+                {/* project 4 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia component="img" alt="project4" height="150" image={project4} />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Biotiful
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p" className={classes.padding3} align="justify">
+                                La Mission Locale de Saint-Gilles est une ASBL reconnue comme OISP 
+                                (Organisme d’Insertion Socioprofessionnelle) et active dans l’accompagnement des demandeurs d’emploi. 
+                                Parallèlement la Mission Locale est mandatée pour développer des projets d’économie sociale. 
+                                C’est dans ce cadre qu’elle a lancé, il y a près de deux ans, son projet d’économie sociale en maraîchage biologique et en éco-jardinage, Biotiful. 
+                                Dans cette continuité, Biotiful va mettre n ligne son site E-commerce pour la vente de ses paniers bio.
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                            <CardActions className={classes.a}>
+                                <Button size="small" color="primary">
+                                    <a target="_blank" without rel="noreferrer" href="" className={classes.link}>Github</a>
+                                </Button>
+                                <Button size="small" color="primary">
+                                    <a target="_blank" without rel="noreferrer" href="https://biotiful.bio" className={classes.link}>Demo</a>
                                 </Button>
                             </CardActions>
                     </Card>

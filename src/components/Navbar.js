@@ -102,6 +102,7 @@ const Navbar = () => {
         </Box>
 
     )
+    
     return (
         <div>
             <>
