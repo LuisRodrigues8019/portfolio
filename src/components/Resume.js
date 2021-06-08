@@ -120,7 +120,7 @@ const Resume = () => {
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            junior web developer
+                            stage junior web developer
                         </Typography>
                         <Typography variant="body1" align="center" style={{color:"tomato"}} className={classes.subHeading}>
                             Mission locale de saint-gilles
