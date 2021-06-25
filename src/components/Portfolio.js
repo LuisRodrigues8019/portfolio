@@ -158,7 +158,7 @@ const Portfolio = () => {
                         </CardActionArea>
                             <CardActions className={classes.a}>
                                 <Button size="small" color="primary">
-                                    <a target="_blank" className={classes.link}>Github</a>  
+                                    <a target="_blank" without rel="noreferrer" href="https://biotiful.bio" className={classes.link}>Github</a>  
                                 </Button>
                                 <Button size="small" color="primary">
                                     <a target="_blank" without rel="noreferrer" href="https://biotiful.bio" className={classes.link}>Demo</a>
